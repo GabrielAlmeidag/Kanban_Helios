@@ -1,7 +1,8 @@
-# Projeto Helios
-1. Crie um projeto no Supabase.
-2. Execute `supabase.sql` no SQL Editor.
-3. Copie a Project URL e a chave publishable/anon para `config.js`. Nunca use a secret/service_role.
-4. Publique esta pasta na Vercel.
+# Projeto Helios - Kanban colaborativo
 
-Todos que acessarem a mesma URL verão as alterações em tempo real. Esta versão permite edição anônima a quem possuir o link.
+1. Execute `supabase.sql` no SQL Editor do Supabase.
+2. Preencha `config.js` com a Project URL e a chave publishable/anon.
+3. Faça commit e push dos arquivos para o GitHub.
+4. A Vercel fará o redeploy automaticamente.
+
+O quadro possui modo claro/noturno, filtros, equipe, criação e edição de cards, arrastar e soltar e sincronização em tempo real.
